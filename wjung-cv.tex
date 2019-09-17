@@ -1,0 +1,123 @@
+\documentclass[12pt,letterpaper,nolmodern]{moderncv}
+
+% margins
+\usepackage[margin=1in]{geometry}
+\recomputelengths
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% no page numbers
+\nopagenumbers{}
+\moderncvtheme[blue]{classic}
+\usepackage{libertine}
+
+% fonts
+\renewcommand{\namefont}{\huge}
+% icons
+
+\firstname{\scshape Woo}
+\familyname{Jung}
+\title{Curriculum Vitae}
+\address{6656 Walnut St.}{Cypress, CA 90630}
+\mobile{+1~(562)~760~8825}
+\email{wjung@pugetsound.edu}
+\social[linkedin]{woosjung}
+\social[github]{wsjung}
+
+
+% double list redefinition for icons
+\renewcommand*{\cvlistdoubleitem}[5][.25em]{%
+  \cvitem[#1]{}{#2\begin{minipage}[t]{\listdoubleitemcolumnwidth}#3\end{minipage}%
+  \hfill% fill of \separatorcolumnwidth
+  \ifthenelse{\equal{#5}{}}%
+    {}%
+    {#4\begin{minipage}[t]{\listdoubleitemcolumnwidth}#5\end{minipage}}}}
+
+% define icons here
+\newcommand{\iconJava}{\includegraphics[width=1.5em]{icon_java.png}}
+\newcommand{\iconPython}{\includegraphics[width=1.25em]{icon_python.png}}
+\newcommand{\iconGit}{\includegraphics[width=1.25em]{icon_git.png}}
+\newcommand{\iconPytorch}{\includegraphics[width=1.25em]{icon_pytorch.jpg}}
+\newcommand{\iconTF}{\includegraphics[width=1.25em]{icon_tensorflow.png}}
+\newcommand{\iconC}{\includegraphics[width=1.25em]{icon_c.png}}
+\newcommand{\iconMatlab}{\includegraphics[width=1.25em]{icon_matlab.png}}
+\newcommand{\iconR}{\includegraphics[width=1.25em]{icon_r.png}}
+\newcommand{\iconLingo}{\includegraphics[width=1.25em]{icon_lingo.png}}
+\newcommand{\iconSQL}{\includegraphics[width=1.25em]{icon_sqlite.png}}
+\newcommand{\iconPHP}{\includegraphics[width=1.25em]{icon_php.png}}
+\newcommand{\iconFlask}{\includegraphics[width=1.25em]{icon_flask.png}}
+\newcommand{\iconLaravel}{\includegraphics[width=1.25em]{icon_laravel.png}}
+\newcommand{\iconJS}{\includegraphics[width=1.25em]{icon_javascript.png}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%	DOCUMENT START	%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\makecvtitle
+
+
+\section{\scshape Education}
+\cventry{2016--exp 2020}{B.S. Mathematics \& B.S. Computer Science}{University of Puget Sound}{~\newline Tacoma, WA}{ GPA: 3.79}{Relevant courses: Operating Systems, Database Management Systems, Software Engineering, Algorithms, Data Structures, Mathematical Modeling, Mathematical Statistics, Advanced Applied Statistics, Optimization, Probability Theory}
+
+\cventry{Fall 2019}{Artificial Neural Networks and Deep Learning}{DIS (study abroad)}{~\newline Copenhagen, Denmark}{}{Relevant courses: Artificial Neural Networks an Deep Learning, Artificial Intelligence, Computational Analysis of Big Data}
+
+
+\section{\scshape Research Experience}
+\cventry{2019}{McCormick Summer Research Scholar}{University of Puget Sound}{~\newline Advisor: Adam A. Smith}{}{\textit{"Generating Artificial Mouse Ultrasonic Vocalizations using Generative Adversarial Networks"}}
+
+
+\section{\scshape Experience}
+\cventry{2018--2019}{Computer Science Assistant}{University of Puget Sound}{}{}{Assisted professors as a TA, grader, and afternoon tutor for Introduction to Computer Science and Data Structures courses. }
+
+\cventry{2017--2019}{Mathematics Assistant}{University of Puget Sound}{}{}{Assisted professors as a grader for Introduction to Applied Statistics and Calculus and Analytic Geometry courses and afternoon tutor for Linear Algebra, Multivariate Calculus, and Applied Statistics courses.}
+
+\cventry{Summer 2018}{IT Intern}{First Choice Bancorp}{Cerritos, CA}{}{Designed and programmed scripts for Windows AD group policies in assistance to the IT department in merger and acquisition process. Assisted in migrating mail servers and transitioning mobile device management platforms for over 300 users and user groups as part of the merger and acquisition.}
+
+\cventry{Summer 2015}{R\&D Intern}{NOVAtime Technology Inc.}{Diamond Bar, CA}{}{Developed a web visualization of a time clock for simpler hierarchical overview. Researched and developed Korean language localization for the time clock interface. Presented the projects before the company’s Board of Directors and Executives.}{}
+
+
+\section{\scshape Projects}
+\cventry{Fall 2018}{Loggregate}{Scrum master, DBA}{\newline github.com/wsjung/loggregate}{}{Led a team of four in developing a study group management platform implemented using the Laravel PHP web framework. Defined a BCNF optimized SQLite database schema and populated it using a Python script which collected course information from the web}
+
+\cventry{Fall 2018}{Quantitative Investment Analysis}{Data collector, DBA}{\newline github.com/wsjung/cs240}{}{Scraped stock and Twitter data from the web using Python’s BeautifulSoup package. Designed a script to automatically collect daily stock and Twitter data using cronjobs. Stored collected data in a BCNF optimized MySQL database for ready access.}
+
+\section{\scshape Extracurricular University Service}
+\cventry{2017--2019}{Chair}{University of Puget Sound ACM Student Chapter}{}{}{}
+
+\cventry{2017--2018}{Secretary}{University of Puget Sound Mathematics Club}{}{}{}
+
+\cventry{2016--2017}{Webmaster}{University of Puget Sound ACM Student Chapter}{}{}{}
+
+
+\section{\scshape Awards and Honors}
+\cvline{2019}{McCormick Scholar Award}
+\cvline{2019}{Dean's List}
+\cvline{2018}{Dean's List}
+\cvline{2017}{Dean's List}
+
+\section{\scshape Skills}
+\subsection{\scshape Languages and Libraries}
+
+\cvlistdoubleitem{\iconJava}{Java}{\iconGit}{ \ Git}{
+\cvlistdoubleitem{\iconPython}{ \ Python}{\iconPytorch}{ \ PyTorch}
+\cvlistdoubleitem{\iconC}{ \ C}{\iconTF}{ \ TensorFlow}
+\cvlistdoubleitem{\iconMatlab}{ \ MATLAB}{\iconSQL}{ \ SQL}
+\cvlistdoubleitem{\iconR}{ \ R}{\iconPHP}{ \ PHP}
+\cvlistdoubleitem{\iconLingo}{ \ LINGO}{\iconFlask}{ \ Flask}
+\cvlistdoubleitem{\iconJS}{ \ JavaScript}{\iconLaravel}{ \ Laravel}
+
+
+\subsection{\scshape Foreign Language}
+\cvlanguage{Korean}{Native fluency}{}
+
+\section{\scshape Affiliations}
+\cvline{ACM}{Member, Association for Computing Machinery}
+\cvline{UPE}{Member, Upsilon Pi Epsilon Honor Society}
+
+\section{\scshape References}
+\cvline{}{Available on request}
+
+\end{document}
