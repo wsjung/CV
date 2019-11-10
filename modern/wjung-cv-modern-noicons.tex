@@ -27,29 +27,6 @@
 
 
 % double list redefinition for icons
-\renewcommand*{\cvlistdoubleitem}[5][.25em]{%
-  \cvitem[#1]{}{#2\begin{minipage}[t]{\listdoubleitemcolumnwidth}#3\end{minipage}%
-  \hfill% fill of \separatorcolumnwidth
-  \ifthenelse{\equal{#5}{}}%
-    {}%
-    {#4\begin{minipage}[t]{\listdoubleitemcolumnwidth}#5\end{minipage}}}}
-
-% define icons here
-\newcommand{\iconJava}{\includegraphics[width=1.5em]{icon_java.png}}
-\newcommand{\iconPython}{\includegraphics[width=1.25em]{icon_python.png}}
-\newcommand{\iconGit}{\includegraphics[width=1.25em]{icon_git.png}}
-\newcommand{\iconPytorch}{\includegraphics[width=1.25em]{icon_pytorch.jpg}}
-\newcommand{\iconTF}{\includegraphics[width=1.25em]{icon_tensorflow.png}}
-\newcommand{\iconC}{\includegraphics[width=1.25em]{icon_c.png}}
-\newcommand{\iconMatlab}{\includegraphics[width=1.25em]{icon_matlab.png}}
-\newcommand{\iconR}{\includegraphics[width=1.25em]{icon_r.png}}
-\newcommand{\iconLingo}{\includegraphics[width=1.25em]{icon_lingo.png}}
-\newcommand{\iconSQL}{\includegraphics[width=1.25em]{icon_sqlite.png}}
-\newcommand{\iconPHP}{\includegraphics[width=1.25em]{icon_php.png}}
-\newcommand{\iconFlask}{\includegraphics[width=1.25em]{icon_flask.png}}
-\newcommand{\iconLaravel}{\includegraphics[width=1.25em]{icon_laravel.png}}
-\newcommand{\iconJS}{\includegraphics[width=1.25em]{icon_javascript.png}}
-
 
 %%%%%%%%%%%%%%%%%%%%%%
 %	DOCUMENT START	%
@@ -60,13 +37,13 @@
 
 
 \section{\scshape Education}
-\cventry{2016--exp 2020}{B.S. Mathematics \& B.S. Computer Science}{University of Puget Sound}{~\newline Tacoma, WA}{ GPA: 3.79}{Relevant courses: Operating Systems, Database Management Systems, Software Engineering, Algorithms, Data Structures, Mathematical Modeling, Mathematical Statistics, Advanced Applied Statistics, Optimization, Probability Theory}
+\cventry{2016--exp 2020}{B.S. Mathematics \& Computer Science}{University of Puget Sound}{~\newline Tacoma, WA}{ GPA: 3.79}{Relevant courses: Operating Systems, Database Management Systems, Software Engineering, Algorithms, Data Structures, Mathematical Modeling, Mathematical Statistics, Advanced Applied Statistics, Optimization, Probability Theory}
 
-\cventry{Fall 2019}{Artificial Neural Networks and Deep Learning}{DIS (study abroad)}{~\newline Copenhagen, Denmark}{}{Relevant courses: Artificial Neural Networks an Deep Learning, Artificial Intelligence, Computational Analysis of Big Data}
+\cventry{Fall 2019}{Artificial Neural Networks and Deep Learning}{DIS (study abroad)}{~\newline Copenhagen, Denmark}{}{Relevant courses: Artificial Neural Networks and Deep Learning, Artificial Intelligence, Computational Analysis of Big Data}
 
 
 \section{\scshape Research Experience}
-\cventry{2019}{McCormick Summer Research Scholar}{University of Puget Sound}{~\newline Advisor: Adam A. Smith}{}{\textit{"Generating Artificial Mouse Ultrasonic Vocalizations using Generative Adversarial Networks"}}
+\cventry{2019}{McCormick Summer Research Scholar}{University of Puget Sound}{~\newline Advisor: Adam A. Smith}{\newline \textit{"Generating Artificial Mouse Ultrasonic Vocalizations using Generative Adversarial Networks"}}{Applied a complex Morlet wavelet transform to raw mouse vocalization recordings to produce visual representations in the form of scalograms. Took and downscaled 1-second slices of visible mouse calls. Implemented a generative adversarial network model trained using NVIDIA's progressive training methodology and produced promising results for $16 \times 32$ and $32 \times 64$ resolution scalogram slices.}
 
 
 \section{\scshape Experience}
@@ -101,13 +78,13 @@
 \section{\scshape Skills}
 \subsection{\scshape Languages and Libraries}
 
-\cvlistdoubleitem{\iconJava}{Java}{\iconGit}{ \ Git}{
-\cvlistdoubleitem{\iconPython}{ \ Python}{\iconPytorch}{ \ PyTorch}
-\cvlistdoubleitem{\iconC}{ \ C}{\iconTF}{ \ TensorFlow}
-\cvlistdoubleitem{\iconMatlab}{ \ MATLAB}{\iconSQL}{ \ SQL}
-\cvlistdoubleitem{\iconR}{ \ R}{\iconPHP}{ \ PHP}
-\cvlistdoubleitem{\iconLingo}{ \ LINGO}{\iconFlask}{ \ Flask}
-\cvlistdoubleitem{\iconJS}{ \ JavaScript}{\iconLaravel}{ \ Laravel}
+\cvlistdoubleitem{Java}{Git}
+\cvlistdoubleitem{Python}{TensorFlow}
+\cvlistdoubleitem{C}{PyTorch}
+\cvlistdoubleitem{MATLAB}{SQL}
+\cvlistdoubleitem{R}{PHP}
+\cvlistdoubleitem{JavaScript}{Flask}
+\cvlistdoubleitem{LINGO}{Laravel}
 
 
 \subsection{\scshape Foreign Language}
