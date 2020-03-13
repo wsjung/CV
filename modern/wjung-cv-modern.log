@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.2)  10 NOV 2019 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.2)  29 FEB 2020 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1555,120 +1555,147 @@ vailable
 nput line 63.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 12.0pt on input line 63.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 69.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 69.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 69.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 69.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 102.
+(Font)              scaled to size 14.4pt on input line 103.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 102.
-<../icons/icon_java.png, id=64, 501.875pt x 501.875pt>
+(Font)              scaled to size 14.4pt on input line 103.
+<../icons/icon_java.png, id=69, 501.875pt x 501.875pt>
 File: ../icons/icon_java.png Graphic file (type png)
 <use ../icons/icon_java.png>
-Package pdftex.def Info: ../icons/icon_java.png  used on input line 104.
+Package pdftex.def Info: ../icons/icon_java.png  used on input line 105.
 (pdftex.def)             Requested size: 18.0pt x 17.99626pt.
-<../icons/icon_git.png, id=66, 384.43625pt x 384.43625pt>
+<../icons/icon_git.png, id=71, 384.43625pt x 384.43625pt>
 File: ../icons/icon_git.png Graphic file (type png)
 <use ../icons/icon_git.png>
-Package pdftex.def Info: ../icons/icon_git.png  used on input line 104.
+Package pdftex.def Info: ../icons/icon_git.png  used on input line 105.
 (pdftex.def)             Requested size: 15.0pt x 14.9994pt.
-<../icons/icon_python.png, id=67, 515.9275pt x 513.92pt>
+<../icons/icon_python.png, id=72, 515.9275pt x 513.92pt>
 File: ../icons/icon_python.png Graphic file (type png)
 <use ../icons/icon_python.png>
-Package pdftex.def Info: ../icons/icon_python.png  used on input line 105.
+Package pdftex.def Info: ../icons/icon_python.png  used on input line 106.
 (pdftex.def)             Requested size: 15.0pt x 14.93858pt.
-<../icons/icon_pytorch.jpg, id=68, 513.92pt x 513.92pt>
+<../icons/icon_pytorch.jpg, id=73, 513.92pt x 513.92pt>
 File: ../icons/icon_pytorch.jpg Graphic file (type jpg)
 <use ../icons/icon_pytorch.jpg>
-Package pdftex.def Info: ../icons/icon_pytorch.jpg  used on input line 105.
+Package pdftex.def Info: ../icons/icon_pytorch.jpg  used on input line 106.
 (pdftex.def)             Requested size: 15.0pt x 14.99347pt.
-<../icons/icon_c.png, id=69, 1204.5pt x 1204.5pt>
+<../icons/icon_c.png, id=74, 1204.5pt x 1204.5pt>
 File: ../icons/icon_c.png Graphic file (type png)
 <use ../icons/icon_c.png>
-Package pdftex.def Info: ../icons/icon_c.png  used on input line 106.
+Package pdftex.def Info: ../icons/icon_c.png  used on input line 107.
 (pdftex.def)             Requested size: 15.0pt x 14.99739pt.
-<../icons/icon_tensorflow.png, id=70, 92.345pt x 98.769pt>
+<../icons/icon_tensorflow.png, id=75, 92.345pt x 98.769pt>
 File: ../icons/icon_tensorflow.png Graphic file (type png)
 <use ../icons/icon_tensorflow.png>
-Package pdftex.def Info: ../icons/icon_tensorflow.png  used on input line 106.
+Package pdftex.def Info: ../icons/icon_tensorflow.png  used on input line 107.
 (pdftex.def)             Requested size: 15.0pt x 16.04298pt.
-<../icons/icon_matlab.png, id=71, 201.00093pt x 180.675pt>
+<../icons/icon_matlab.png, id=76, 201.00093pt x 180.675pt>
 File: ../icons/icon_matlab.png Graphic file (type png)
 <use ../icons/icon_matlab.png>
-Package pdftex.def Info: ../icons/icon_matlab.png  used on input line 107.
+Package pdftex.def Info: ../icons/icon_matlab.png  used on input line 108.
 (pdftex.def)             Requested size: 15.0pt x 13.48111pt.
-<../icons/icon_sqlite.png, id=72, 240.9pt x 240.9pt>
+<../icons/icon_sqlite.png, id=77, 240.9pt x 240.9pt>
 File: ../icons/icon_sqlite.png Graphic file (type png)
 <use ../icons/icon_sqlite.png>
-Package pdftex.def Info: ../icons/icon_sqlite.png  used on input line 107.
+Package pdftex.def Info: ../icons/icon_sqlite.png  used on input line 108.
 (pdftex.def)             Requested size: 15.0pt x 14.99739pt.
-<../icons/icon_r.png, id=73, 311.1625pt x 240.9pt>
+<../icons/icon_r.png, id=78, 311.1625pt x 240.9pt>
 File: ../icons/icon_r.png Graphic file (type png)
 <use ../icons/icon_r.png>
-Package pdftex.def Info: ../icons/icon_r.png  used on input line 108.
+Package pdftex.def Info: ../icons/icon_r.png  used on input line 109.
 (pdftex.def)             Requested size: 15.0pt x 11.61195pt.
-<../icons/icon_php.png, id=74, 200.75pt x 106.3975pt>
+<../icons/icon_php.png, id=79, 200.75pt x 106.3975pt>
 File: ../icons/icon_php.png Graphic file (type png)
 <use ../icons/icon_php.png>
-Package pdftex.def Info: ../icons/icon_php.png  used on input line 108.
+Package pdftex.def Info: ../icons/icon_php.png  used on input line 109.
 (pdftex.def)             Requested size: 15.0pt x 7.94861pt.
-<../icons/icon_lingo.png, id=75, 128.48pt x 128.48pt>
+<../icons/icon_lingo.png, id=80, 128.48pt x 128.48pt>
 File: ../icons/icon_lingo.png Graphic file (type png)
 <use ../icons/icon_lingo.png>
-Package pdftex.def Info: ../icons/icon_lingo.png  used on input line 109.
+Package pdftex.def Info: ../icons/icon_lingo.png  used on input line 110.
 (pdftex.def)             Requested size: 15.0pt x 14.99934pt.
-<../icons/icon_flask.png, id=76, 843.15pt x 1150.2975pt>
+<../icons/icon_flask.png, id=81, 843.15pt x 1150.2975pt>
 File: ../icons/icon_flask.png Graphic file (type png)
 <use ../icons/icon_flask.png>
-Package pdftex.def Info: ../icons/icon_flask.png  used on input line 109.
+Package pdftex.def Info: ../icons/icon_flask.png  used on input line 110.
 (pdftex.def)             Requested size: 15.0pt x 20.4482pt.
-<../icons/icon_javascript.png, id=77, 493.3632pt x 493.3632pt>
+<../icons/icon_javascript.png, id=82, 493.3632pt x 493.3632pt>
 File: ../icons/icon_javascript.png Graphic file (type png)
 <use ../icons/icon_javascript.png>
-Package pdftex.def Info: ../icons/icon_javascript.png  used on input line 110.
+Package pdftex.def Info: ../icons/icon_javascript.png  used on input line 111.
 (pdftex.def)             Requested size: 15.0pt x 14.99599pt.
-<../icons/icon_laravel.png, id=78, 128.48pt x 128.48pt>
+<../icons/icon_laravel.png, id=83, 128.48pt x 128.48pt>
 File: ../icons/icon_laravel.png Graphic file (type png)
 <use ../icons/icon_laravel.png>
-Package pdftex.def Info: ../icons/icon_laravel.png  used on input line 110.
+Package pdftex.def Info: ../icons/icon_laravel.png  used on input line 111.
 (pdftex.def)             Requested size: 15.0pt x 14.99934pt.
  [2 <../icons/icon_java.png> <../icons/icon_git.png> <../icons/icon_python.png>
  <../icons/icon_pytorch.jpg> <../icons/icon_c.png> <../icons/icon_tensorflow.pn
 g> <../icons/icon_matlab.png> <../icons/icon_sqlite.png> <../icons/icon_r.png> 
 <../icons/icon_php.png> <../icons/icon_lingo.png> <../icons/icon_flask.png> <..
-/icons/icon_javascript.png> <../icons/icon_laravel.png>] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+/icons/icon_javascript.png> <../icons/icon_laravel.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (./wjung-cv-modern.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
-Package rerunfilecheck Info: File `wjung-cv-modern.out' has not changed.
-(rerunfilecheck)             Checksum: AA79609419CA6F2A961D8744167A1412;1341.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+
+
+Package rerunfilecheck Warning: File `wjung-cv-modern.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `wjung-cv-modern.out':
+(rerunfilecheck)             Before: AA79609419CA6F2A961D8744167A1412;1341
+(rerunfilecheck)             After:  EC0A343EC4EA385E9D25AF5BD32E86B5;1005.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 104 ({)
+### simple group (level 1) entered at line 105 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31407 strings out of 494805
- 587484 string characters out of 6178001
- 667553 words of memory out of 5000000
- 34214 multiletter control sequences out of 15000+600000
- 607883 words of font info for 103 fonts, out of 8000000 for 9000
+ 31455 strings out of 494805
+ 588444 string characters out of 6178001
+ 667672 words of memory out of 5000000
+ 34239 multiletter control sequences out of 15000+600000
+ 625547 words of font info for 124 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  69i,13n,60p,10367b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_n
-h77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.
-enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/
-usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}</usr/sh
-are/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on wjung-cv-modern.pdf (3 pages, 762824 bytes).
+pdfTeX warning (dest): name{section*.11} has been referenced bu
+t does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.10} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.9} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbt
+n_nh77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gp
+a5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc
+}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}</usr
+/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marv
+osym.pfb>
+Output written on wjung-cv-modern.pdf (2 pages, 786211 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 27307 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 32939 words of extra memory for PDF output out of 35830 (max. 10000000)
 
